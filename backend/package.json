@@ -1,0 +1,24 @@
+{
+  "name": "skillgap-backend",
+  "version": "1.0.0",
+  "description": "Backend for SkillGap career preparation platform",
+  "type": "module",
+  "main": "src/app.mjs",
+  "scripts": {
+    "dev": "nodemon src/app.mjs",
+    "start": "node src/app.mjs",
+    "seed": "node src/seed.mjs"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.24.4",
+    "multer": "^2.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
