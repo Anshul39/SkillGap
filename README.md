@@ -23,51 +23,7 @@ Database	MongoDB, Mongoose
 Auth	JWT (7-day tokens), bcryptjs
 File Upload	Multer (PDF, DOC, DOCX — max 5 MB)
 Styling	Custom CSS with CSS variables
-Project Structure
-SkillGap-main/
-│
-├── SkillGap-main/          ← Frontend (React + Vite)
-│   ├── src/
-│   │   ├── pages/
-│   │   │   ├── Login.jsx
-│   │   │   ├── Dashboard.jsx
-│   │   │   ├── UploadResume.jsx
-│   │   │   ├── Onboarding.jsx
-│   │   │   ├── SkillGapReport.jsx
-│   │   │   ├── Roadmap.jsx
-│   │   │   ├── JobDiscovery.jsx
-│   │   │   ├── ApplicationTracker.jsx
-│   │   │   └── Profile.jsx
-│   │   ├── components/
-│   │   │   ├── Sidebar.jsx
-│   │   │   ├── Navbar.jsx
-│   │   │   ├── Modal.jsx
-│   │   │   ├── StatCard.jsx
-│   │   │   └── ProgressBar.jsx
-│   │   ├── data/
-│   │   │   ├── companyData.js   ← 20+ companies, roles, ATS keywords
-│   │   │   └── careerData.js    ← Job portal links, DSA topics
-│   │   └── services/
-│   │       └── api.js           ← All API calls
-│   └── package.json
-│
-└── backend/                ← Backend (Node.js + Express)
-    ├── src/
-    │   ├── app.mjs          ← All routes in one file
-    │   ├── models/
-    │   │   ├── User.mjs
-    │   │   ├── Resume.mjs
-    │   │   ├── Target.mjs
-    │   │   └── Application.mjs
-    │   ├── data/
-    │   │   └── careerData.mjs   ← Career portals, job generation
-    │   └── seed.mjs         ← Seed script for Target collection
-    └── package.json
-Getting Started
-Prerequisites
-Node.js v18 or above
-MongoDB running locally (mongodb://127.0.0.1:27017) or a MongoDB Atlas connection string
-npm
+
 1. Clone the repository
 git clone https://github.com/your-username/skillgap-ai.git
 cd skillgap-ai
